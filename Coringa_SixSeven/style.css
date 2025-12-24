@@ -1,28 +1,39 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/13444879-ponto-de-interrogacao-sobre-fundo-branco-vetor.jpg'); /* Define a imagem */
+    background-size: cover;                        /* Cobre a tela inteira */
+    background-repeat: no-repeat;                  /* Não repete a imagem */
+    background-attachment: fixed;                  /* Mantém a imagem fixa */
+    background-position: center center;            /* Centraliza a imagem no fundo */
 }
+
 h1 {
     position: absolute;
     top: 5px;
     left: 600px;
-    color: rgb(160, 0, 0);
-}
-
-h2{
-    top: 1000px;
-    left: 20px;
+    color: rgb(34, 31, 31);
 }
 
 .paragrafo1{
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
-    color: rgb(27, 128, 243);   
+    color: rgb(255, 255, 255);   
+}
+
+h2{
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
 .testelinha{
     max-width: 400px;
-    margin-top: 80px;
     margin-left: 20px;
     line-height: 1.0;
+}
+
+.imagemcoringa{
+    margin-left: 530px;
+
 }
