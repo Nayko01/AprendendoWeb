@@ -3,16 +3,35 @@ body {
     background-color: #D5D6D8;
     
     background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/13444879-ponto-de-interrogacao-sobre-fundo-branco-vetor.jpg'); /* Define a imagem */
-    background-size: contain;    /*talvez trocar contain&cover. Cobre a tela inteira */
+    background-size: cover;    /*talvez trocar contain&cover. Cobre a tela inteira */
     background-repeat: no-repeat;                  /* Não repete a imagem */
     background-attachment: fixed;                  /* Mantém a imagem fixa */
     background-position: center center;            /* Centraliza a imagem no fundo */
 
+
+    transition: all 0.5s;
 }
 
-.imagemcoringa{
-    margin-left: 530px;
-    margin-top: 140px;
+.temasixisevi{
+    background-color: #1a1a1a;
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/68db0c90d4f204b8686325ad/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds");
+
+}
+
+/*faz a imagem e os botões sumirem quando o temasixisevi for ativado*/
+.temasixisevi .imagemcoringa,
+.temasixisevi .valores{
+
+    display: none;
+
+}
+
+.container-centralizada {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center;     /* Centraliza horizontalmente */
 }
 
 .valores{
@@ -24,3 +43,9 @@ body {
 
 }
 
+.imagemcoringa{
+    margin: 0 0 32px 0; /* Espaço abaixo da imagem */
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
