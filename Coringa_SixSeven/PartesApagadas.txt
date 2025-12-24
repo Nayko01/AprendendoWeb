@@ -1,0 +1,28 @@
+
+PARTEHTML
+
+<div class="paragrafo1">
+        <h1>O que posso escrever nesse paragrafo?</h1>
+        <p class="testelinha">O que posso escrever nesse paragrafo?<br>
+                                quero dividir ele em tres partes.
+        </p>
+    </div>
+
+PARTECSS
+
+.paragrafo1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(255, 255, 255);   
+}
+
+h1{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.testelinha{
+    max-width: 400px;
+    margin-left: 20px;
+    line-height: 1.0;
+}
