@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+h1 {
+    position: absolute;
+    top: 5px;
+    left: 600px;
+    color: rgb(160, 0, 0);
+}
+
+h2{
+    top: 1000px;
+    left: 20px;
+}
+
+.paragrafo1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: rgb(27, 128, 243);   
+}
+
+.testelinha{
+    max-width: 400px;
+    margin-top: 80px;
+    margin-left: 20px;
+    line-height: 1.0;
+}
