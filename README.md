@@ -53,10 +53,10 @@ O projeto é composto pelos seguintes arquivos:
 Durante o desenvolvimento, identifiquei e corrigi problemas estruturais para garantir o funcionamento do projeto:
 
 ### **Correção de Referência de Estilos**
-* [cite_start]**O Problema:** Nas versões iniciais do projeto, o arquivo de estilização estava nomeado incorretamente como `style.css`[cite: 3].
-* [cite_start]**O Erro:** Isso impedia que o navegador carregasse o layout, pois o arquivo `index.html` buscava pela referência `estilos.css`[cite: 2].
-* [cite_start]**A Solução:** O arquivo foi padronizado para `estilos.css`, garantindo o vínculo correto com o HTML[cite: 2, 3].
-* **Aviso para Histórico:** Caso você explore versões ou *commits* antigos deste repositório, lembre-se de que pode ser necessário renomear o arquivo para `estilos.css` manualmente para que o layout seja exibido conforme o esperado.
+**O Problema:** Nas versões iniciais do projeto, o arquivo de estilização estava nomeado incorretamente como `style.css`[cite: 3].
+**O Erro:** Isso impedia que o navegador carregasse o layout, pois o arquivo `index.html` buscava pela referência `estilos.css`[cite: 2].
+**A Solução:** O arquivo foi padronizado para `estilos.css`, garantindo o vínculo correto com o HTML[cite: 2, 3].
+**Aviso para Histórico:** Caso você explore versões ou *commits* antigos deste repositório, lembre-se de que pode ser necessário renomear o arquivo para `estilos.css` manualmente para que o layout seja exibido conforme o esperado.
 
 ---
 
