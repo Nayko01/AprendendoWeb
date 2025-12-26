@@ -1,6 +1,6 @@
 //esse é o js
 
-const audiosixisevi = new Audio("https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptoken=67_meme_audio")
+const audiosixisevi = new Audio("ArquivoSite/sixseven.mp3");
 audiosixisevi.loop = true;
 
 //essa primeira função evita a pagina recarregar duas vezes, tambem eliminando a necessidade 
